@@ -46,6 +46,10 @@ choco install -y Microsoft-Windows-Subsystem-Linux -source windowsfeatures
 choco install -y Googlechrome
 
 
+#--- Powershell things ---
+Install-Module -Name PSConsoleTheme
+Install-Module -Name posh-git
+
 #--- Node + VS Tools ---
 choco install -y nodejs-lts # Node.js LTS, Recommended for most users
 # choco install -y nodejs # Node.js Current, Latest features
