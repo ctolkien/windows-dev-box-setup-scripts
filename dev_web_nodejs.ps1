@@ -67,7 +67,8 @@ choco install -y docker-for-windows
 choco install -y python2 # Node.js requires Python 2 to build native modules
 choco install -y postman
 choco install -y hub
-choco install -y poshgit
+#choco install -y poshgit #comes from powershell modules
+choco install -y 1password
 
 Enable-UAC
 Enable-MicrosoftUpdate
@@ -79,3 +80,4 @@ Install-WindowsUpdate -acceptEula
 # Spotify
 # Slack
 # Twitter
+# Ubuntu
