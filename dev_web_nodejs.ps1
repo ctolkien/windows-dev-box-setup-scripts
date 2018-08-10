@@ -15,6 +15,7 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 
 #--- Tools - VSCode + Extensions---
 choco install -y vscode
+refreshenv
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension msjsdiag.debugger-for-edge
 code --install-extension ms-vscode.azurecli
