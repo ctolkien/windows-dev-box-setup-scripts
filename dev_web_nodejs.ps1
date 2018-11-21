@@ -33,7 +33,7 @@ code --install-extension ms-mssql.mssql
 code --install-extension ms-vsliveshare.vsliveshare
 
 #--- GIT ---
-choco install -y git -params '"/GitAndUnixToolsOnPath /WindowsTerminal"'
+choco install -y git -params '"/WindowsTerminal"'
 
 #--- Windows Subsystems/Features ---
 choco install -y Microsoft-Hyper-V-All -source windowsFeatures
